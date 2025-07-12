@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I</title>
+</head>
+<body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <h2>Hello World!</h2>
+    <p>Este é um <strong>exemplo prático</strong> de um site simples, criado para treinar as tags aprendidas em aula. Vamos usar várias tags importantes do HTML.</p>
+
+    <h3>Índice</h3>
+    <ul>
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#midia">Inserindo imagens e links em uma página</a></li>
+    </ul>
+    <hr >
+
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+    <p>Um documento HTML começa com a tag <strong>&lt;!DOCTYPE html&gt;</strong>, que informa ao navegador que estamos utilizando HTML5.</p>
+    <p>Em seguida, temos a estrutura geral do código:</p>
+    <ol>
+        <li><i>&lt;html&gt;</i>: envolve todo o conteúdo da página.</li>
+        <li><i>&lt;head&gt;</i>: contém informações sobre a página, como o título e os metadados.</li>
+        <li><i>&lt;body&gt;</i>: parte visível da página, onde colocamos textos, imagens, links etc.</li>
+    </ol>
+
+    <p>Aqui está um exemplo completo de uma estrutura HTML básica:</p>
+    <blockquote>
+        &lt;!DOCTYPE html&gt;<br>
+        &lt;html lang="pt-br"&gt;<br>
+        &nbsp;&nbsp;&lt;head&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Minha Página&lt;/title&gt;<br>
+        &nbsp;&nbsp;&lt;/head&gt;<br>
+        &nbsp;&nbsp;&lt;body&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Olá, mundo!&lt;/h1&gt;<br>
+        &nbsp;&nbsp;&lt;/body&gt;<br>
+        &lt;/html&gt;
+    </blockquote>
+    <p><small>Dica: O ideal é sempre manter seu HTML <strong>semântico</strong> e <u>organizado</u> para facilitar a manutenção e o entendimento.</p></small>
+
+    <hr>
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <p>As <strong>listas ordenadas</strong> usam a tag <code>&lt;ol&gt;</code> e mostram os itens numerados:</p>
+    <ol>
+        <li>Primeiro passo</li>
+        <li>Segundo passo</li>
+        <li>Terceiro passo</li>
+    </ol>
+
+    <p>As <strong>listas não ordenadas</strong> usam a tag <code>&lt;ul&gt;</code> e mostram marcadores:</p>
+    <ul>
+        <li>Item qualquer</li>
+        <li>Outro item</li>
+        <li>Mais um item</li>
+    </ul>
+
+    <hr>
+    <h2 id="midia">Inserindo imagens e links em uma página</h2>
+    <p>Adicionar <strong>links</strong> e <strong>imagens</strong> é essencial na criação de páginas web. Para inserir um link, usamos a tag <code>&lt;a&gt;</code>. Por exemplo:</p>
+    <p>
+        Acesse o conteúdo completo sobre HTML na 
+        <a href="https://www.w3schools.com/html/default.asp" target="_blank"><u>W3Schools</u></a>, ou veja também na <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"><abbr title="Mozilla Developer Network">MDN Web Docs</abbr></a>.
+    </p>
+
+    <p>Já para inserir imagens, utilizamos a tag <code>&lt;img&gt;</code>, que não precisa de fechamento. Ela requer pelo menos dois atributos:</p>
+    <ul>
+        <li><strong>src</strong>: define o caminho da imagem</li>
+        <li><strong>alt</strong>: define um texto alternativo (usado por leitores de tela e quando a imagem não carrega)</li>
+    </ul>
+
+    <h6><a href="pagina2.html" target="_blank">Ir para a próxima página</a></h6>
+
+</body>
+</html>
